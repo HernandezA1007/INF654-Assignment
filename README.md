@@ -16,8 +16,18 @@ This project is a web application utilizing the Materialize CSS framework to dem
 
 ## Setup / How to View the Prototype:
 
-...
+Clone the repository with `git clone https://github.com/HernandezA1007/INF654-Assignment.git`.
+Open up index.html in your web browser and check out the prototype
 
 ## Gallery
 
-(insert screenshots)
+Movie Log home page
+![movie log home page](./img/movielog.png)
+Mobile view and side-form
+<p align="center">
+    <img src="./img/mobile.png" alt="mobile view" width="400"/>
+    <img src="./img/movieform.png" alt="movie form" width="400"/>
+</p>
+Contact page
+
+![contact page](./img/contact.png)

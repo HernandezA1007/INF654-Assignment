@@ -38,20 +38,38 @@
         </li>
     </ul>
 
-    <!-- Content -->
-    <div class="container grey-text">
-        <h5 class="center">Contact</h5>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nemo dignissimos aliquam 
-            assumenda quae suscipit, minima pariatur iste, consequuntur placeat dolor error consectetur 
-            maiores eveniet? Hic sequi consectetur dolor delectus.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo, dolore id doloribus, error 
-            reprehenderit voluptatum obcaecati saepe eum iure expedita rem excepturi voluptatibus nihil commodi, 
-            magnam molestias omnis. Quaerat.
-        </p>
-    </div>
+    <!-- Content | Contact Form-->
+    <div class="container grey-text text-lighten-3">
+        <h5 class="center white-text">Contact Us</h5>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="name" type="text" class="validate white-text" required>
+                <label for="name">Name</label>
+              </div>
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate white-text" required>
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field col s12">
+                <input id="phone" type="tel" class="validate white-text">
+                <label for="phone">Phone (Optional)</label>
+              </div>
+              <div class="input-field col s12">
+                <textarea id="message" class="materialize-textarea white-text" required></textarea>
+                <label for="message">Message</label>
+              </div>
+              <div class="col s12 center">
+                <button class="btn waves-effect waves-light red" type="submit" name="action">
+                  Send
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
 
     <script src="/js/ui.js"></script>
 

@@ -82,7 +82,7 @@
     background: var(--secondary) !important; /* title */
   }
   input {
-    color: var(--text-light);
+    /* color: var(--text-light); */
     /* box-shadow: none !important; */
     /* -webkit-box-shadow: none !important; */
     border-bottom: 1px solid var(--text-light);
