@@ -10,10 +10,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/css/app.css">
     <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <link rel="manifest" href="/manifest.json">
     <title>Movie Log</title>
 </head>
 
-<body class="grey lighten-4">
+<body class="grey darken-4"> <!-- class="grey lighten-4"-->
     <nav class="z-depth-0">
         <div class="nav-wrapper container">
             <a href="/">Movie<span> Log</span></a>
@@ -39,7 +40,7 @@
 
     <!-- Movies -->
     <div class="movies container grey-text text-darken-1">
-        <div class="card-panel movie white row">
+        <div class="card-panel movie white row"> 
             <img src="/img/movie.jpg" class="responsive-img materialboxed" alt="">
             <div class="movie-detail">
                 <div class="movie-title">Star Wars</div>
@@ -74,7 +75,7 @@
             
             <div class="input-field">
                 <input placeholder="Enter Movie title" id="title" class="validate" type="text">
-                <label for="title">Movie Title</label>
+                <label for="title">Movie Titles</label>
             </div>
             <div class="input-field">
                 <input placeholder="Enter Movie description" id="description" class="validate" type="text">
@@ -90,6 +91,7 @@
     </div>
 
     <script src="/js/ui.js"></script>
+    <script src="/js/app.js"></script>
 
 </body>
 </html>

@@ -14,10 +14,10 @@ This project is a web application utilizing the Materialize CSS framework to dem
 - HTML, CSS, and JavaScript
 - [Materialize CSS](https://materializecss.com/) - framework
 
-Setup / How to View the Prototype:
+## Setup / How to View the Prototype:
 
 ...
 
-Gallery
+## Gallery
 
 (insert screenshots)
